@@ -1,0 +1,79 @@
+body
+{
+	background-image: url("barre12.jpg");
+	opacity: 0.9;
+	font-family :verdana;
+}
+h1
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial;
+	text-shadow: 6px 6px 8px sandybrown;
+
+}
+.jj
+{
+	font-size: 17px;
+	text-align: center;
+
+
+}
+#conteneur{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.element
+{
+	width: 340px;
+	height: 510px;
+	
+}
+.element:nth-child(1)
+{
+	background-image: url("barre4.jpg");
+border-radius: 25px;
+width: 140px;
+height: 550px;
+position: absolute;
+top: 0;
+left: 10px;
+
+}
+.element:nth-child(2)
+{
+	position: relative;
+	left: 130px;
+
+
+	
+
+}
+.element:nth-child(3)
+{
+	position: relative;
+	left: 120px
+	
+}
+.element:nth-child(4)
+{
+	position: relative;
+	left: 120px
+	
+}
+h2
+{
+	color: sandybrown;
+}
+.element:nth-child(5)
+{
+ position: absolute;
+ top:0px;
+ right:10px;
+ width: 350px;
+ height: 200px;
+ text-align: right;
+
+}

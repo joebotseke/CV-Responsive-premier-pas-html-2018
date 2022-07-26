@@ -1,0 +1,75 @@
+@media screen and (max-width: 1024px){
+	h1{
+		color: coral;
+
+	}
+}
+@media screen and (max-width: 9000px){
+	.element:nth-child(1)
+{
+	background-image: url("bj.jpg");
+border-radius: 25px;
+width: 10px;
+height: 750px;
+position: absolute;
+top: 0;
+left: 10px;
+margin-bottom: 800px;
+
+} 
+#conteneur{
+	display: flex;
+	flex-direction: column;
+	margin:17px;
+	flex-wrap: nowrap;
+
+}
+.element
+{
+	width: 340px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+}
+.element:nth-child(2)
+{
+	position: relative;
+	left: 1px;
+
+
+	
+
+}
+.element:nth-child(3)
+{
+	position: relative;
+	left: 1px;
+	top: 300px;
+	
+}
+.element:nth-child(4)
+{
+	position: absolute;
+	left: 30px;
+	top: 650px;
+	
+}
+h2
+{
+	color: chocolate;
+
+}
+
+.element:nth-child(5)
+{
+ position: absolute;
+ top:30px;
+ right:10px;
+ width: 350px;
+ height: 200px;
+ text-align: right;
+
+
+
+}
